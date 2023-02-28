@@ -1,0 +1,72 @@
+#banner {
+    display: grid;
+    place-items: center;
+    background-color: rgb(236, 154, 46);
+}
+
+
+.boton {
+    border-color: transparent;
+    width: fit-content;
+    height: fit-content;
+    background-color: transparent;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+footer {
+    display: grid;
+    place-items: center;
+    height: 100px;
+    padding: 2px;
+    background-color: black;
+}
+
+
+.franja_naranja {
+    height: 10px;
+    background-color: black;
+}
+
+#block1 {
+    border-radius: 2%;
+    margin: 5px;
+    padding: 5px;
+    height: fit-content;
+    width: 300px;
+    background-image: url(../images/flores.png);
+    background-size: cover;
+}
+
+#block2 {
+    display: none;
+    border-radius: 2%;
+    margin: 5px;
+    padding: 5px;
+    height: fit-content;
+    width: 300px;
+    background-color: rgba(236, 154, 46, 0.534);
+    font-size: small;
+}
+
+#block3 {
+    display: none;
+    border-radius: 2%;
+    margin: 5px;
+    padding: 5px;
+    height: fit-content;
+    width: 300px;
+    background-color: rgba(236, 154, 46, 0.534);
+}
+
+#block4 {
+    display: none;
+    border-radius: 2%;
+    margin: 5px;
+    padding: 5px;
+    height: fit-content;
+    width: 300px;
+    background-color: rgba(236, 154, 46, 0.534);
+    font-size: small;
+}

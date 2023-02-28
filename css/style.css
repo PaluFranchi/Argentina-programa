@@ -1,0 +1,184 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 0cm;
+    background-color: #F8FFD9;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+h1 {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    margin: 1px;
+}
+
+/* #banner {
+    
+} */
+
+#banner::after {
+    content: "";
+    background: url(../images/libros.webp) no-repeat;
+    background-size: cover;
+    height: 0.5vh;
+    opacity: 0.7;
+    min-height: 185px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+#edicion_banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+#contenedor_de_imagen {
+    margin: 10px;
+    padding: 0%;
+}
+
+#imagenmia {
+    border-radius: 100%;
+}
+
+.franja_naranja {
+    height: 10px;
+    background-color: rgb(236, 154, 46);
+}
+
+#contenedor_informacion {
+    display: grid;
+    place-items: center;
+    margin-top: 10px;
+}
+
+.boton {
+    border-color: transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(236, 154, 46);
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.boton:hover {
+    background-color: rgba(236, 154, 46, 0.534);
+    cursor: pointer;
+}
+
+#caja_de_informacion {
+    height: 200px;
+    width: 40%;
+}
+
+.datos_listas {
+    margin-top: 10px;
+    padding: 5px 20px 5px 20px;
+}
+
+/* Inicio de estilo para los eventos onclick */
+
+.block {
+    display: block;
+}
+
+#block1 {
+    border-radius: 2%;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 600px;
+    background-image: url(../images/flores.png);
+    background-size: cover;
+}
+
+#block2 {
+    display: none;
+    border-radius: 2%;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 600px;
+    background-color: rgba(236, 154, 46, 0.534);
+    font-size: small;
+}
+
+#block3 {
+    display: none;
+    border-radius: 2%;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 600px;
+    background-color: rgba(236, 154, 46, 0.534);
+}
+
+#block4 {
+    display: none;
+    border-radius: 2%;
+    margin: 5px;
+    padding: 5px;
+    height: 300px;
+    width: 600px;
+    background-color: rgba(236, 154, 46, 0.534);
+    font-size: small;
+}
+
+
+/* Fin de estilo para los eventos onclick */
+
+/* Inicio de estilo del footer y su contenido */
+
+#pie {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#pie_uno {
+    width: 49%;
+}
+
+#pie_dos {
+    width: 49%;
+    margin-top: 10px;
+}
+
+.pie_dos_hijo {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: right;
+}
+
+.enlacepie {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    height: 100px;
+    padding: 2px;
+    background-color: black;
+}
+
+/* Fin de estilo del footer y su contenido */
