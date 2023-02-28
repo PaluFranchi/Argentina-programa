@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="(max-width: 618px)" href="css/stylequery.css">
+    <title>Curriculum </title>
+    <link rel="shortcut icon" href="https://randomuser.me/api/portraits/women/91.jpg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Inicio banner -->
+    <div id="banner">
+        <div id="edicion_banner">
+            <div id="contenedor_de_imagen"><img src="https://randomuser.me/api/portraits/women/91.jpg" alt="MiaMendoza"
+                    id="imagenmia"></div>
+            <h1>Mia Mendoza</h1>
+        </div>
+    </div>
+    <!-- Fin banner -->
+    <div class="franja_naranja"></div>
+    <div id="contenedor_informacion">
+        <div class="botones">
+            <button class="boton" type="button" onClick="showBlock(this.id)" id='1'>Datos</button>
+            <button class="boton" type="button" onClick="showBlock(this.id)" id='2'>Experiencia</button>
+            <button class="boton" type="button" onClick="showBlock(this.id)" id='3'>Historia</button>
+            <button class="boton" type="button" onClick="showBlock(this.id)" id='4'>Educación</button>
+        </div>
+        <!-- Inicio de cajas de información que se ven modificadas por los botones  -->
+        <div id='block1' class='block'>
+            <div class="datos_listas">
+                <ul>
+                    <li><b>Nombre: Mia</b></li>
+                    <li><b>Apellido: Mendoza</b></li>
+                    <li><b>Edad: 35 años</b></li>
+                    <li><b>DNI: 27.652.214</b></li>
+                    <li><b>Estado Civil: Divorciada</b></li>
+                </ul>
+            </div>
+        </div>
+        <div id='block2' class='block'>
+            <div class="datos_listas">
+                <h3>Profesora de inglés</h3>
+                <ul>
+                    <li><b>Institución: Universidad Abierta Interamericana</b></li>
+                    <li><i>3 años de actividad</i></li>
+                    <li>Profesora de curso a niños y adolescentes</li>
+                </ul>
+            </div>
+            <div class="datos_listas">
+                <h3>Conservador y restaurador en museo</h3>
+                <ul>
+                    <li><b>Institución: Museo de La Plata</b></li>
+                    <li><i>Becario: 5 meses</i></li>
+                    <li>Trabajo en el área de conservación y exhibición </li>
+                </ul>
+            </div>
+        </div>
+        <div id='block3' class='block'>
+            <div class="datos_listas">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore culpa odit, consectetur laboriosam
+                    rem recusandae suscipit neque perspiciatis quis quae facere nobis obcaecati consequuntur vero
+                    architecto enim, minima, saepe harum.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim dolor temporibus eligendi eveniet
+                    explicabo aspernatur at odit harum, placeat quae? Voluptates earum eos rem perferendis minus magni
+                    eum architecto laboriosam.</p>
+            </div>
+        </div>
+        <div id='block4' class='block'>
+            <div class="datos_listas">
+                <h3>Profesorado de inglés</h3>
+                <ul>
+                    <li><b>Institución: Universidad Abierta Interamericana</b></li>
+                    <li><i>Marzo 2014 - Diciembre 2018</i></li>
+                    <li>Promedio: 9.06</li>
+                </ul>
+            </div>
+            <div class="datos_listas">
+                <h3>Licenciado en museología</h3>
+                <ul>
+                    <li><b>Institución: Universidad de Buenos Aires</b></li>
+                    <li><i>Marzo 2010 - Diciembre 2013</i></li>
+                    <li>Promedio: 8.10</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Fin de cajas de información que se ven modificadas por los botones -->
+    </div>
+    <footer>
+        <div id="pie">
+            <div id="pie_uno">
+                <div style="margin-top: 10px;">
+                    <a class="enlacepie" href="instagram.com">Instagram</a>
+                    <a class="enlacepie" href="faceboook.com">Facebook</a>
+                    <a class="enlacepie" href="twitter.com">Twitter</a>
+                    <a class="enlacepie" href="linkedin.com">Linkedin</a>
+                </div>
+            </div>
+            <div id="pie_dos">
+                <div class="pie_dos_hijo">
+                    <p>(011) 879-6554</p>
+                </div>
+                <div class="pie_dos_hijo">
+                    <p style="margin: 2px;">miamendoza@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
